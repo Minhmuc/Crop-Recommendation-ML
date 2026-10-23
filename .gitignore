@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+outputs/
+data/*.csv
+data/*.zip
+requirements-local.txt
+data/
