@@ -163,4 +163,6 @@ Nguồn chính: [Kaggle](https://www.kaggle.com/datasets/atharvaingle/crop-recom
 
 ## Báo cáo cập nhật theo tiến độ
 
-Dùng một file [Bao_cao_Hoc_may.docx](Bao_cao_Hoc_may.docx) cho toàn học phần. Phụ lục A đối chiếu các mốc kiểm tra; phần chưa có kết quả để trống. Trước Bài kiểm tra 1, tự chạy ô “Bổ sung cho Bài kiểm tra 1” trong notebook để đối chiếu bảng chất lượng dữ liệu; ô này không huấn luyện. Các kết quả Colab cũ vẫn được giữ nguyên.
+Dùng một file [Bao_cao_Hoc_may.docx](Bao_cao_Hoc_may.docx) cho toàn học phần. Hiện báo cáo tập trung nội dung Bài kiểm tra 1; các đề mục dành cho các mốc sau để trống. Trước Bài kiểm tra 1, tự chạy ô “Bổ sung cho Bài kiểm tra 1” trong notebook để đối chiếu bảng chất lượng dữ liệu; ô này không huấn luyện.
+
+Theo yêu cầu bổ sung của giảng viên, dự án phải dùng ít nhất hai bộ dữ liệu và gộp chúng. Hiện mới có một nguồn được sử dụng; phần tích hợp hai nguồn chưa hoàn thành. Hướng dẫn tại [HUONG_DAN_HAI_NGUON_DU_LIEU.md](HUONG_DAN_HAI_NGUON_DU_LIEU.md). Notebook phụ [kiem_tra_hai_nguon_du_lieu.ipynb](kiem_tra_hai_nguon_du_lieu.ipynb) kiểm tra hai CSV và hỗ trợ xuất bản gộp khi đã xác minh; mặc định chưa xuất file. Chưa thay đổi dữ liệu của notebook chính.
