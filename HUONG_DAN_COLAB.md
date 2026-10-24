@@ -1,12 +1,12 @@
 # Chạy bài Học máy trên Google Colab rồi tải mô hình về làm demo
 
-Hướng dẫn này dành cho `crop-recommendation-knn.ipynb`. Bạn tự chạy từng ô; chưa có bước nào được thực hiện thay bạn. Mã hiện lưu **pipeline KNN + scaler thành `.joblib`**, chưa xuất ONNX. Colab là nơi thực hiện tính toán, không quyết định định dạng mô hình.
+Hướng dẫn này dành cho `crop_recommendation_knn.ipynb`. Bạn tự chạy từng ô; chưa có bước nào được thực hiện thay bạn. Mã hiện lưu **pipeline KNN + scaler thành `.joblib`**, chưa xuất ONNX. Colab là nơi thực hiện tính toán, không quyết định định dạng mô hình.
 
 ## 1. Chuẩn bị và mở notebook
 
 Trên máy, chuẩn bị 4 file:
 
-- `crop-recommendation-knn.ipynb`.
+- `crop_recommendation_knn.ipynb`.
 - `requirements.txt`.
 - `demo.py` (notebook có import các hàm từ file này).
 - `Crop_recommendation.csv`: tự tải, giải nén từ [Kaggle](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset).

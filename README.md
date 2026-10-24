@@ -14,7 +14,7 @@ Bạn có thể chọn một trong hai môi trường. Nếu dùng **Google Cola
 
 | File | Dùng để làm gì? |
 |---|---|
-| `crop-recommendation-knn.ipynb` | Lý thuyết, kiểm tra dữ liệu, EDA, thí nghiệm, đánh giá, lưu mô hình và demo |
+| `crop_recommendation_knn.ipynb` | Lý thuyết, kiểm tra dữ liệu, EDA, thí nghiệm, đánh giá, lưu mô hình và demo |
 | `demo.py` | Nhập 7 giá trị trong terminal, in top-3 từ mô hình đã lưu; không huấn luyện |
 | `requirements.txt` | Thư viện cho môi trường Học máy riêng |
 | `data/README.md` | Nguồn và cách tải dữ liệu, lưu ý về đơn vị |
@@ -159,3 +159,8 @@ Giữ nguyên file dữ liệu, cấu hình, phiên bản và mã nguồn khi kh
 Dữ liệu gán một nhãn cho mỗi mẫu; top-3 là xếp hạng nhãn dự đoán, chưa chứng minh ba cây đều phù hợp ngoài thực địa. Kết quả tốt trên bộ dữ liệu này chưa đủ để kết luận dùng được cho đất và khí hậu Việt Nam.
 
 Nguồn chính: [Kaggle](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset), [KNN](https://scikit-learn.org/1.7/modules/neighbors.html), [Pipeline và rò rỉ dữ liệu](https://scikit-learn.org/1.7/common_pitfalls.html), [GridSearchCV](https://scikit-learn.org/1.7/modules/generated/sklearn.model_selection.GridSearchCV.html), [StratifiedKFold](https://scikit-learn.org/1.7/modules/generated/sklearn.model_selection.StratifiedKFold.html).
+
+
+## Báo cáo cập nhật theo tiến độ
+
+Dùng một file [Bao_cao_Hoc_may.docx](Bao_cao_Hoc_may.docx) cho toàn học phần. Phụ lục A đối chiếu các mốc kiểm tra; phần chưa có kết quả để trống. Trước Bài kiểm tra 1, tự chạy ô “Bổ sung cho Bài kiểm tra 1” trong notebook để đối chiếu bảng chất lượng dữ liệu; ô này không huấn luyện. Các kết quả Colab cũ vẫn được giữ nguyên.
