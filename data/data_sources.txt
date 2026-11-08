@@ -1,2 +1,2 @@
 https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
-
+https://github.com/KRUTHIKTR/Crop-Recommendation-System-Using-Machine-Learning/tree/main/Datasets
