@@ -1,0 +1,24 @@
+# Giao diện "sổ tay nông trại": nền kem, xanh cỏ dịu, nâu gỗ (theme sáng, khóa chế độ).
+[theme]
+base = "light"
+primaryColor = "#4f7a34"             # xanh cỏ, đủ tương phản với chữ trắng
+backgroundColor = "#faf6ec"          # kem giấy
+secondaryBackgroundColor = "#f0e7d4" # be nhạt (nền ô nhập)
+textColor = "#3d3226"                # nâu đậm
+borderColor = "#ddd0b4"              # viền gỗ nhạt
+linkColor = "#4f7a34"
+font = "Nunito:https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+headingFont = "Lora:https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&display=swap"
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+baseRadius = "medium"
+buttonRadius = "medium"
+dataframeHeaderBackgroundColor = "#efe3c8"
+dataframeHeaderTextColor = "#5a4630"
+dataframeBorderColor = "#e3d6bb"
+greenColor = "#4f7a34"
+orangeColor = "#c07a2c"
+redColor = "#b0452f"
+yellowColor = "#d9a521"
+
+[browser]
+gatherUsageStats = false

@@ -4,12 +4,9 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .env
-outputs/
-data/*.csv
 data/*.zip
 requirements-local.txt
 baocao_nhom*.pdf
-crop*.zip
 pom.md
 tieuchicham.docx
 mau.docx

@@ -1,0 +1,2 @@
+sample_id,N,P,K,temperature,humidity,ph,rainfall,true_label,pred_KNN,pred_GaussianNB,pred_DecisionTree,pred_RandomForest,pred_KNN_final,is_error
+140,99.0,56.0,17.0,24.10859207,73.13112261,6.234330356,71.07562236,maize,cotton,cotton,maize,maize,cotton,True

@@ -1,0 +1,6 @@
+﻿model,vai_tro,CV Accuracy,CV F1 macro,Test Accuracy,Test F1 macro
+KNN,Mô hình chính,0.9963 ± 0.0033,0.9957 ± 0.0046,0.9971,0.9976
+GaussianNB,Baseline,0.9993 ± 0.0015,0.9994 ± 0.0012,0.9971,0.9976
+DecisionTree,So sánh,0.9911 ± 0.0060,0.9842 ± 0.0116,0.9853,0.9475
+RandomForest,So sánh,0.9993 ± 0.0015,0.9982 ± 0.0036,1.0,1.0
+KNN_final,Biến thể KNN chọn bằng CV,0.9963 ± 0.0033,0.9957 ± 0.0046,0.9971,0.9976

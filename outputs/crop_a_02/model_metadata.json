@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "features": [
+    "N",
+    "P",
+    "K",
+    "temperature",
+    "humidity",
+    "ph",
+    "rainfall"
+  ],
+  "classes": [
+    "apple",
+    "banana",
+    "blackgram",
+    "chickpea",
+    "coconut",
+    "coffee",
+    "cotton",
+    "grapes",
+    "jute",
+    "kidneybeans",
+    "lentil",
+    "maize",
+    "mango",
+    "mothbeans",
+    "mungbean",
+    "muskmelon",
+    "orange",
+    "papaya",
+    "pigeonpeas",
+    "pomegranate",
+    "rice",
+    "watermelon"
+  ],
+  "training_bounds": {
+    "N": [
+      0.0,
+      140.0
+    ],
+    "P": [
+      5.0,
+      145.0
+    ],
+    "K": [
+      5.0,
+      205.0
+    ],
+    "temperature": [
+      8.825674745,
+      43.67549305
+    ],
+    "humidity": [
+      14.25803981,
+      99.98187601
+    ],
+    "ph": [
+      3.504752314,
+      9.93509073
+    ],
+    "rainfall": [
+      20.21126747,
+      298.5601175
+    ]
+  },
+  "config": {
+    "revision": 7,
+    "mode": "nguon_a",
+    "features": [
+      "N",
+      "P",
+      "K",
+      "temperature",
+      "humidity",
+      "ph",
+      "rainfall"
+    ],
+    "seed": 42,
+    "test_size_groups": 0.2,
+    "cv_folds": 5,
+    "k_values": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      15,
+      21,
+      31
+    ],
+    "group_decimals": 6,
+    "versions": {
+      "numpy": "2.2.6",
+      "pandas": "2.3.3",
+      "scipy": "1.16.2",
+      "scikit-learn": "1.7.2",
+      "matplotlib": "3.10.7",
+      "seaborn": "0.13.2",
+      "joblib": "1.5.2",
+      "threadpoolctl": "3.6.0"
+    },
+    "sha_a": "54a5a6e5408668e668667efc50de2fc867c1b875e0431b4f54dd331b0a109a4e",
+    "sha_b": "20692cec87e697041ab37693a4216e1891a05f181eb10d7b34ccb10212a71b1a",
+    "source_a": "https://github.com/KRUTHIKTR/Crop-Recommendation-System-Using-Machine-Learning/blob/main/Datasets/crop_data1.csv",
+    "source_b": "https://github.com/KRUTHIKTR/Crop-Recommendation-System-Using-Machine-Learning/blob/main/Datasets/crop_data2.csv",
+    "source_b_origin": "Tải từ kho GitHub KRUTHIKTR; quy trình thu thập và gán nhãn riêng chưa rõ.",
+    "model_roles": {
+      "KNN": "Mô hình chính",
+      "GaussianNB": "Baseline",
+      "DecisionTree": "So sánh",
+      "RandomForest": "So sánh",
+      "KNN_final": "Biến thể KNN chọn bằng CV"
+    },
+    "cv_strategy": "StratifiedGroupKFold",
+    "selection_metric": "f1_macro",
+    "two_sources_merged": false,
+    "feature_selection": {
+      "method": "mutual_info_classif",
+      "k": 5,
+      "seed": 42
+    },
+    "workflow": "crop_final"
+  },
+  "selection": {
+    "best_model_by_cv": "RandomForest",
+    "demo_model": "KNN_final",
+    "criterion": "CV F1 macro",
+    "final_variant": "tuned_7",
+    "selected_features": [
+      "N",
+      "P",
+      "K",
+      "temperature",
+      "humidity",
+      "ph",
+      "rainfall"
+    ],
+    "knn_params": "{'knn__metric': 'manhattan', 'knn__n_neighbors': 3, 'knn__weights': 'distance', 'scale': 'passthrough'}",
+    "final_params": {
+      "scale": "passthrough",
+      "feature_count": 7,
+      "knn": {
+        "algorithm": "brute",
+        "leaf_size": 30,
+        "metric": "manhattan",
+        "metric_params": null,
+        "n_jobs": 1,
+        "n_neighbors": 3,
+        "p": 2,
+        "weights": "distance"
+      }
+    }
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.16.2",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.7",
+    "seaborn": "0.13.2",
+    "joblib": "1.5.2",
+    "threadpoolctl": "3.6.0"
+  }
+}

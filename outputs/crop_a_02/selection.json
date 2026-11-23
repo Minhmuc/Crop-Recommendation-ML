@@ -1,0 +1,30 @@
+{
+  "best_model_by_cv": "RandomForest",
+  "demo_model": "KNN_final",
+  "criterion": "CV F1 macro",
+  "final_variant": "tuned_7",
+  "selected_features": [
+    "N",
+    "P",
+    "K",
+    "temperature",
+    "humidity",
+    "ph",
+    "rainfall"
+  ],
+  "knn_params": "{'knn__metric': 'manhattan', 'knn__n_neighbors': 3, 'knn__weights': 'distance', 'scale': 'passthrough'}",
+  "final_params": {
+    "scale": "passthrough",
+    "feature_count": 7,
+    "knn": {
+      "algorithm": "brute",
+      "leaf_size": 30,
+      "metric": "manhattan",
+      "metric_params": null,
+      "n_jobs": 1,
+      "n_neighbors": 3,
+      "p": 2,
+      "weights": "distance"
+    }
+  }
+}

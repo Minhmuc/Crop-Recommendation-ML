@@ -1,0 +1,23 @@
+,precision,recall,f1-score,support
+apple,1.0,1.0,1.0,20.0
+arecanut,1.0,1.0,1.0,5.0
+banana,1.0,1.0,1.0,21.0
+beans,1.0,1.0,1.0,20.0
+coffee,1.0,1.0,1.0,20.0
+cotton,1.0,1.0,1.0,20.0
+cowpeas,1.0,1.0,1.0,20.0
+grapes,1.0,1.0,1.0,20.0
+groundnut,1.0,1.0,1.0,5.0
+groundnuts,1.0,1.0,1.0,20.0
+jackfruit,1.0,1.0,1.0,5.0
+maize,1.0,1.0,1.0,24.0
+mango,1.0,1.0,1.0,20.0
+orange,1.0,1.0,1.0,20.0
+peas,1.0,1.0,1.0,20.0
+rice,1.0,1.0,1.0,28.0
+soyabeans,1.0,1.0,1.0,26.0
+sugarcane,1.0,1.0,1.0,5.0
+watermelon,1.0,1.0,1.0,20.0
+accuracy,1.0,1.0,1.0,1.0
+macro avg,1.0,1.0,1.0,339.0
+weighted avg,1.0,1.0,1.0,339.0

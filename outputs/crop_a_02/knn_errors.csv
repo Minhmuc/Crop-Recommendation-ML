@@ -1,0 +1,11 @@
+sample_id,N,P,K,temperature,humidity,ph,rainfall,true_label,pred_KNN,pred_GaussianNB,pred_DecisionTree,pred_RandomForest,pred_KNN_final,is_error
+42,83.0,60.0,36.0,25.59704938,80.14509262,6.903985986,200.834898,rice,jute,jute,rice,rice,jute,True
+46,76.0,49.0,42.0,24.958779,84.47963372,5.206373153,196.95600080000003,rice,jute,rice,rice,rice,jute,True
+79,81.0,41.0,38.0,22.67846116,83.72874389,7.5240800760000015,200.9133156,rice,jute,rice,rice,rice,jute,True
+83,67.0,43.0,39.0,26.04371967,84.96907151,5.9999690260000005,186.7536773,rice,jute,jute,jute,jute,jute,True
+140,99.0,56.0,17.0,24.10859207,73.13112261,6.234330356,71.07562236,maize,cotton,maize,maize,maize,cotton,True
+408,35.0,58.0,20.0,29.38538562,63.47742011,5.761702519,90.05422663,pigeonpeas,blackgram,pigeonpeas,pigeonpeas,pigeonpeas,blackgram,True
+474,9.0,59.0,24.0,20.43517772,39.37252634,4.747352458,137.22796619999997,pigeonpeas,kidneybeans,pigeonpeas,pigeonpeas,pigeonpeas,kidneybeans,True
+570,23.0,58.0,19.0,24.17093241,58.25204566,5.243634848999999,59.18953429,mothbeans,lentil,mothbeans,mothbeans,mothbeans,lentil,True
+839,28.0,58.0,25.0,27.4818649,62.04814951,6.861640036,37.81123974,lentil,mothbeans,lentil,mothbeans,lentil,mothbeans,True
+2054,88.0,50.0,40.0,25.63215038,79.95150917,7.0518224720000005,182.2582277,jute,rice,jute,jute,jute,rice,True

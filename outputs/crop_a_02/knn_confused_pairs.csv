@@ -1,0 +1,8 @@
+﻿true_label,pred_KNN,so_mau
+jute,rice,1
+lentil,mothbeans,1
+maize,cotton,1
+mothbeans,lentil,1
+pigeonpeas,blackgram,1
+pigeonpeas,kidneybeans,1
+rice,jute,4

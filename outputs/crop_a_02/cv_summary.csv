@@ -1,0 +1,7 @@
+model,vai_tro,train_f1_macro,train_f1_sd,cv_accuracy,cv_accuracy_sd,cv_f1_macro,cv_f1_sd,best_params,candidates,gap
+KNN,Mô hình chính,1.0,0.0,0.9835227272727274,0.0011363636363636686,0.9836604258955074,0.0011133121046004038,"{'knn__metric': 'manhattan', 'knn__n_neighbors': 3, 'knn__weights': 'distance', 'scale': 'passthrough'}",162,0.016339574104492605
+GaussianNB,Baseline,0.9947395882851527,0.0011454897759527996,0.99375,0.004545454545454544,0.9937154993211337,0.004513010495696218,{'model__var_smoothing': 1e-11},3,0.0010240889640190654
+DecisionTree,So sánh,1.0,0.0,0.9875,0.0068653670304514676,0.9874844715845932,0.006861582643763787,"{'max_depth': None, 'min_samples_leaf': 1}",6,0.012515528415406818
+RandomForest,So sánh,0.9981543068995732,0.0005653229507699187,0.9943181818181819,0.005081972676135881,0.9942763373578286,0.005076329480707504,"{'max_depth': 10, 'min_samples_leaf': 1}",4,0.0038779695417445748
+KNN_final,Biến thể KNN chọn bằng CV,1.0,0.0,0.9835227272727274,0.0011363636363636686,0.9836604258955074,0.0011133121046004038,"{'knn': KNeighborsClassifier(algorithm='brute', metric='manhattan', n_jobs=1,
+                     n_neighbors=3, weights='distance'), 'scale': 'passthrough', 'select': 'passthrough'}",4,0.016339574104492605
